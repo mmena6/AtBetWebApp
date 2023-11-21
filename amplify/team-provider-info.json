@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-atbetwebapp-dev-155625-authRole",
+      "UnauthRoleArn": "arn:aws:iam::520674951378:role/amplify-atbetwebapp-dev-155625-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::520674951378:role/amplify-atbetwebapp-dev-155625-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-atbetwebapp-dev-155625-deployment",
+      "UnauthRoleName": "amplify-atbetwebapp-dev-155625-unauthRole",
+      "StackName": "amplify-atbetwebapp-dev-155625",
+      "StackId": "arn:aws:cloudformation:us-east-1:520674951378:stack/amplify-atbetwebapp-dev-155625/6fd0f190-88b0-11ee-b9f1-0ad0144f8a0d",
+      "AmplifyAppId": "dtr82j0cffmt6"
+    }
+  }
+}
