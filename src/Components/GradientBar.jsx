@@ -6,7 +6,7 @@ const GradientBar = ({ value, backgroundColor }) => {
   const fillerBackground = `linear-gradient(to right, ${colors.gradYellow}, ${backgroundColor})`;
   
   const fillerStyles = {
-    height: '100%',
+    height: '70%',
     width: `${value}%`,
     background: fillerBackground, 
     borderRadius: 'inherit',
