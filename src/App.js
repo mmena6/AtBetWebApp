@@ -93,9 +93,8 @@ function App() {
       <header style={headerStyle}>At Bet Analytics Dashboard</header>
       <div style={gridContainerStyle}>
         <div style={barContainerStyle}>
-          <div style={{backgroundColor: "#5E5D5D", borderRadius: "8px", padding: "10px", marginBottom: "10px"}}>
-          
-          <h2 style={{marginLeft: "40%"}}>Top 3 Tools</h2>
+          <div style={{backgroundColor: "#5E5D5D", borderRadius: "8px", padding: "10px", marginBottom: "10px", maxHeight: "95%"}}>
+          <h2 style={{marginLeft: "40%", marginBottom: "-1vh"}}>Top 3 Tools</h2>
           <ToolTipUsageWidget totalUsage={topToolTipData[0].toolTipName} usageNumber={topToolTipData[0].usageNumber} ranking={1} toolTipName={topToolTipData[0].toolTipName} uses={topToolTipData[0].uses} />
           <ToolTipUsageWidget totalUsage={topToolTipData[1].toolTipName} usageNumber={topToolTipData[1].usageNumber} ranking={2} toolTipName={topToolTipData[1].toolTipName}  uses={topToolTipData[1].uses}/>
           <ToolTipUsageWidget totalUsage={topToolTipData[2].toolTipName} usageNumber={topToolTipData[2].usageNumber} ranking={3} toolTipName={topToolTipData[2].toolTipName}  uses={topToolTipData[2].uses}/>
