@@ -27,7 +27,7 @@ ChartJS.register(
 function App() {
   const [timeOnOpeningPageData, setTimeOnOpeningPageData] = useState([12, 19, 3, 5, 2, 3]);
   const [timeOnStatsPageData, setTimeOnStatsPageData] = useState([8, 15, 10, 7, 12, 5]);
-  const [topToolTipData, getTopToolTipData] = useState([{"toolTipName": "Tooltip 1", "usageNumber": 100, "totalUsage": 100, "ranking": 1, "uses": 25}, {"toolTipName": "Tooltip 2", "usageNumber": 80, "totalUsage": 400, "ranking": 1, "uses": 15}, {"toolTipName": "Tooltip 3", "usageNumber": 60, "totalUsage": 400, "ranking": 1, "uses": 10}]);  
+  const [topToolTipData, getTopToolTipData] = useState([{"toolTipName": "OPS", "usageNumber": 100, "totalUsage": 100, "ranking": 1, "uses": 25}, {"toolTipName": "WHIP", "usageNumber": 80, "totalUsage": 400, "ranking": 1, "uses": 15}, {"toolTipName": "ERA", "usageNumber": 60, "totalUsage": 400, "ranking": 1, "uses": 10}]);  
   const appStyle = {
     backgroundColor: '#2B2A2A',
     color: 'white',
@@ -82,7 +82,7 @@ function App() {
     labels: ['Casual Emotional', 'Casual Analytical', 'Advanced'],
     datasets: [
       {
-        data: [5, 7, 9],
+        data: [5, 8, 4],
         backgroundColor: ['red', 'blue', 'yellow'],
       },
     ],
